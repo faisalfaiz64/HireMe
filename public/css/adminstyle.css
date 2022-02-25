@@ -1,0 +1,208 @@
+@import url("../fonts/montserrat-fonts.css");
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background: #FFF;
+	font-weight: normal;
+	position: relative;
+	font-size: 13px;
+	color: #333333;
+	font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	color: #101010;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+	margin-bottom: 0px;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #242424;
+
+}
+.rty .btn {
+	background: #35373e;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	border-radius: 4px;
+	display: inline-block;
+	padding: 13px 30px;
+	font-size: 12px;
+	border: 1px solid #35373e;
+	text-transform: uppercase;
+	border-radius: 0px;
+	margin-top: 30px;
+	letter-spacing: 1px;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+.nvtop a{
+	font-size: 16px;
+	font-weight: bold;
+}
+.nvtop a:hover{
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+}
+.position-center-center {
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.sub-banner {
+	background: url(../images/bg/sub-bnr.jpg) center center fixed no-repeat;
+	background-size: cover;
+	max-height: 380px;
+	min-height: 380px;
+	text-align: center;
+}
+.sub-banner .position-center-center {
+	width: 100%;
+}
+.sub-banner h2{
+	margin-bottom: 250px;
+	color: #fff;
+	text-transform: none;
+	letter-spacing: 6px;
+	font-size: 40px;
+	font-family: 'montserratbold';
+	text-transform: uppercase;
+	
+}
+.rty{
+	margin-top: 50px;
+}
+
+/*---------------------login--------------------*/
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+ margin-top: 20px;
+}
+
+
+
+.container {
+  padding: 16px;
+  width: 40%;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+/*-----------------------signup------------------*/
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+
+.container {
+  padding: 16px;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+
+
+
+
+.usertable table tr td{
+	margin-left: 20px;
+}

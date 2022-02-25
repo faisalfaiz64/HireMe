@@ -1,0 +1,543 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    color: #777;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+   
+    font-weight: 300;
+    word-wrap: break-word;
+
+    
+}
+.topnavbarcus{
+
+}
+.searchdiv {
+    
+    margin-top: 25px;
+}
+.logotext{
+    font-family: "merienda" !important;
+}
+.logotext:hover{
+    color: orange !important;
+
+}
+.navbar-nav a {
+    font-family: poppins;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navbar-light .navbar-brand {
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar-nav {
+    text-align: center;
+}
+.nav-link {
+    padding: .2rem 1rem;
+}
+.nav-link.active, .nav-link:focus {
+    color: #fff;
+}
+.navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: orange;
+}
+.w-100 {
+    height: 100vh;
+}
+@media only screen and (max-width: 767px) {
+    .navbar-nav.ml-auto {
+        background: rgba(0, 0, 0, 0.5);
+    }
+    .navbar-nav a {
+        font-size: 14px;
+        font-weight: normal;
+    }
+}
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption {
+    bottom: 280px;
+}
+.carousel-caption h5 {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: orange;
+    font-family: "merienda" !important;
+    letter-spacing: 2px;
+    font-weight: bold;
+    
+}
+.amber-border:focus{
+   border: 1px solid orange;
+   box-shadow: 0px 0px orange;
+}
+.carousel-caption p {
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 1.9;
+    font-family: poppins;
+}
+.infoboxsfull{
+    
+    margin: 30px 20px;
+}
+.imgbox{
+    height: 110px;
+    width: 110px;
+    border-radius: 50px;
+    background-color: orange;
+    margin-left: 18px;
+}
+.imgbox img{
+    height: 80px;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+
+.parainfo{
+    margin-top: 15px;
+    width: 150px;
+    text-align: center;
+}
+
+
+
+
+
+
+.section--title .h1 {
+    display: inline-block;
+    position: relative;
+    margin-top: 1px;
+    padding-bottom: 15px;
+    z-index: 0;
+}
+
+.section--title .h1:before,
+.section--title .h1:after {
+    content: " ";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 3px;
+    max-width: 90px;
+    height: 1px;
+    margin: 0 auto;
+    background-color: #181818;
+}
+
+.section--title .h1:after {
+    max-width: 70px;
+    bottom: 0;
+}
+
+.section--title.lines--white .h1:before,
+.section--title.lines--white .h1:after {
+    background-color: #fff;
+}
+
+.section--title p {
+    max-width: 650px;
+    margin-top: 12px;
+    margin-bottom: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+}
+
+/* 3.7. PAGE HEADER */
+.page--header .title {
+    margin-top: 2px;
+}
+
+.page--header .breadcrumb {
+    margin-bottom: 2px;
+}
+
+.page--header .title + .breadcrumb {
+    margin-top: 15px;
+}
+
+/* 3.8. CONTENT INNER */
+.content--inner {
+    font-weight: 400;
+}
+
+.content--inner:before,
+.content--inner:after {
+    content: " ";
+    display: table;
+}
+
+.content--inner:after {
+    clear: both;
+}
+
+.content--inner > h1:first-child,
+.content--inner > h2:first-child,
+.content--inner > h3:first-child,
+.content--inner > h4:first-child,
+.content--inner > h5:first-child,
+.content--inner > h6:first-child {
+    margin-top: 0;
+}
+
+.content--inner table {
+    margin-bottom: 10px;
+}
+
+.content--inner table:last-child {
+    margin-bottom: 0;
+}
+
+.content--inner table.specs .fa {
+    min-width: 15px;
+    margin-right: 10px;
+    color: #deab3a;
+}
+
+.content--inner table.specs tr + tr td {
+    padding-top: 8px;
+}
+
+.content--inner table.specs td:first-child {
+    padding-right: 10px;
+}
+
+.content--inner table.specs td + td:before {
+    content: ":";
+    margin-right: 10px;
+    font-weight: 700;
+}
+
+.content--inner blockquote {
+    padding: 22px 40px;
+    color: #fff;
+    background-color: #deab3a;
+    border-width: 0;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+/* 3.9. ABOUT IMAGE */
+.about--img {
+    position: relative;
+    max-width: 555px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0 20px 20px;
+    z-index: 0;
+}
+
+.about--img:before {
+    content: " ";
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 20px;
+    bottom: 0;
+    background-color: #181818;
+    z-index: -1;
+}
+
+.about--img img {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 3.10. ABOUT SUMMERY */
+.about--summery .title {
+    padding: 3px 0 3px 20px;
+    border-style: solid;
+    border-width: 0 0 0 4px;
+    border-color: #deab3a;
+}
+
+.about--summery .title .h4 {
+    font-style: italic;
+}
+
+.about--summery .title p {
+    margin-top: 20px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.about--summery .title p:first-letter {
+    color: #181818;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.about--summery .desc {
+    margin-top: 4px;
+}
+
+.about--summery .social .nav {
+    margin: 7px -2.5px 0;
+}
+
+.about--summery .social .nav > li {
+    padding: 5px 2.5px 0;
+}
+
+.about--summery .social .nav > li > a {
+    min-width: 35px;
+    padding: 4px 0;
+    color: #deab3a;
+    border: 1px solid #deab3a;
+    line-height: 25px;
+    text-align: center;
+}
+
+.about--summery .social .nav > li > a:hover {
+    color: #fff;
+    background-color: #deab3a;
+}
+
+/* 3.11. SERVICE ITEMS */
+.service--items {
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px 0 1px 1px;
+    border-color: #deab3a;
+}
+
+.service--item {
+    padding: 40px 30px 32px;
+    border-right: 1px solid #deab3a;
+    text-align: center;
+    -webkit-transition: color .25s, background-color .25s ease-in-out;
+    transition: color .25s, background-color .25s ease-in-out;
+}
+
+.service--item:hover {
+    color: #fff;
+    background-color: #deab3a;
+}
+
+.service--item .icon {
+    display: inline-block;
+    min-width: 70px;
+    border: 1px solid #deab3a;
+    line-height: 70px;
+    text-align: center;
+    -webkit-transition: color .25s, background-color .25s ease-in-out;
+            transition: color .25s, background-color .25s ease-in-out;
+}
+
+.service--item:hover .icon {
+    color: #deab3a;
+    background-color: #fff;
+}
+
+.service--item .title {
+    margin-top: 34px;
+}
+
+.service--item .title .h5 {
+    -webkit-transition: color .25s;
+            transition: color .25s;
+}
+
+.service--item:hover .title .h5 {
+    color: #fff;
+}
+
+.service--item .desc {
+    margin-top: 8px;
+}
+
+.service--items .owl-nav {
+    position: static;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    max-width: none;
+}
+
+.service--items .owl-nav > div {
+    position: absolute;
+    top: 50%;
+    left: -1px;
+    width: 50px;
+    margin: -21px -20px 0;
+    color: #fff;
+    background-color: #deab3a;
+    border-color: #fff #fff #fff transparent;
+    font-size: 16px;
+    line-height: 42px;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    visibility: hidden;
+    -webkit-transition-property: margin, opacity, visibility;
+    transition-property: margin, opacity, visibility;
+    -webkit-transition-duration: .55s;
+            transition-duration: .55s;
+    -webkit-transition-timing-function: ease-in-out;
+            transition-timing-function: ease-in-out;
+}
+
+.service--items:hover .owl-nav > div,
+html.touchevents .service--items .owl-nav > div {
+    margin-left: 0;
+    margin-right: 0;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    visibility: visible;
+}
+
+.service--items .owl-nav > .owl-next {
+    left: auto;
+    right: 0;
+    border-color: #fff transparent #fff #fff;
+}
+
+.service--items .owl-prev .fa:before {
+    content: "\f177";
+}
+
+.service--items .owl-next .fa:before {
+    content: "\f178";
+}
+
+/* 3.12. PORTFOLIO FILTER MENU */
+.portfolio--filter-menu .nav {
+    margin-top: -8px;
+    text-align: center;
+}
+
+.portfolio--filter-menu .nav > li {
+    float: none;
+    display: inline-block;
+    margin: 8px 2px 0;
+    padding: 3px 25px;
+    color: #deab3a;
+    border: 1px solid #deab3a;
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 500;
+    -webkit-transition: color .25s, background-color .25s ease-in-out;
+            transition: color .25s, background-color .25s ease-in-out;
+    cursor: pointer;
+}
+
+.portfolio--filter-menu .nav > li:hover,
+.portfolio--filter-menu .nav > li.active {
+    color: #fff;
+    background-color: #deab3a;
+}
+
+/* 3.13. PORTFOLIO ITEMS */
+.portfolio--sizer,
+.portfolio--item {
+    width: 20%;
+}
+
+.portfolio--item.grid--2 {
+    width: 40%;
+}
+
+.portfolio--item figure {
+    position: relative;
+    z-index: 0;
+}
+
+.portfolio--item img {
+    width: 100%;
+}
+
+.portfolio--item figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 45px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.75);
+    text-align: center;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    visibility: hidden;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    -webkit-transition-property: opacity, visibility, -webkit-transform;
+    transition-property: opacity, visibility, -webkit-transform;
+    transition-property: opacity, visibility, transform;
+    transition-property: opacity, visibility, transform, -webkit-transform;
+    -webkit-transition-duration: .55s;
+            transition-duration: .55s;
+    -webkit-transition-timing-function: ease-in-out;
+            transition-timing-function: ease-in-out;
+    z-index: 1;
+}
+
+.portfolio--item:hover figcaption {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    visibility: visible;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+
+.portfolio--item figcaption:after {
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    right: 30px;
+    bottom: 30px;
+    border: 1px solid #deab3a;
+    z-index: -1;
+}
+
+.portfolio--item figcaption p {
+    margin-top: 4px;
+}
+
+.portfolio--item figcaption .btns {
+    margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 38px;
+}
+
+.portfolio--item figcaption .btns a {
+    display: inline-block;
+    min-width: 40px;
+    margin: 0 8px;
+    border: 1px solid;
+}
+
+.portfolio--item figcaption .btns a:not(:hover) {
+    color: #fff;
+}
